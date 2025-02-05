@@ -1,0 +1,35 @@
+.news-section {
+    width: 100%;
+    background-color: black;
+    padding: 10px 0 0;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .news-ticker {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .news-ticker p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  /* Smooth fade-in effect */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
