@@ -89,7 +89,7 @@ function Navbar() {
               <a class="nav-link" href="#">Career</a>
             </li>
         </ul>
-         
+        
           <ul className="navbar-nav ms-auto">
          <li className="nav-item">
     <button autoFocus className="btn btn-success me-2">Login</button> 

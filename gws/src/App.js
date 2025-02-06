@@ -4,6 +4,7 @@ import Newsticker from './components/Newsticker';
 import Carousal from './components/Carousal';
 
 
+
 function App() {
   return (
     <div className="App">
